@@ -1,4 +1,5 @@
-project "zlib-lib"
+project "zlib"
+location "generated"
 	language    "C"
 	kind        "StaticLib"
 	defines     { "N_FSEEKO" }
